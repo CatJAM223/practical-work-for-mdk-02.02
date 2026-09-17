@@ -31,3 +31,5 @@ Task "1" -- "1" TaskStatus : status
 CreateTaskRequest ..> Task : создаёт
 TaskCreatedWebhook "1" *-- "1" Task : содержит
 @enduml
+
+![Диаграмма](resources/ERD.PNG)
